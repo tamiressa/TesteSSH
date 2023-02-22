@@ -24,7 +24,7 @@ class Saida{
         $descricao = $data['descricao'];
         $valor = $data['valor'];
 
-              //Condição de ifs
+              //Condicionais 
               if (trim($id_tipo == null)) {
                 echo 'O id_tipo e nulo';
                 return;
